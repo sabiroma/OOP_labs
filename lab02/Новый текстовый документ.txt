@@ -1,0 +1,16 @@
+// Функция для сдвига битов: перемещает все единицы влево, а нули вправо
+unsigned long shiftBits(unsigned long num) {
+    unsigned long result = 0; // Результат
+    unsigned long position = 0; // Позиция для установки единиц
+
+    // Проход по всем битам числа
+    for (unsigned long i = 0; i < sizeof(unsigned long) * 8; ++i) {
+        if (num & 1) { // Если текущий бит равен 1
+            result |= (1UL << (sizeof(unsigned long) * 8 - 1 - position)); // Устанавливаем единицу на правильной позиции
+            position++; // Увеличиваем позицию для следующей единицы
+        }
+        num >>= 1; // Сдвигаем число вправо
+    }
+
+    return result; // Возвращаем результат
+}
