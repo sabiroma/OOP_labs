@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Drivers>
+    <Driver>
+        <Name>Федоров Андрей Сергеевич</Name>
+        <Experience>5</Experience>
+        <Category>D</Category>
+    </Driver>
+    <Driver>
+        <Name>Попова Дарья Викторовна</Name>
+        <Experience>1</Experience>
+        <Category>A</Category>
+    </Driver>
+    <Driver>
+        <Name>Михайлова Ольга Павловна</Name>
+        <Experience>9</Experience>
+        <Category>B</Category>
+    </Driver>
+    <Driver>
+        <Name>Васильев Сергей Борисович</Name>
+        <Experience>6</Experience>
+        <Category>C</Category>
+    </Driver>
+    <Driver>
+        <Name>Иванов Иван Иванович</Name>
+        <Experience>5</Experience>
+        <Category>B</Category>
+    </Driver>
+    <Driver>
+        <Name>Сидоров Алексей Петрович</Name>
+        <Experience>10</Experience>
+        <Category>C</Category>
+    </Driver>
+    <Driver>
+        <Name>Соколова Анна Сергеевна</Name>
+        <Experience>2</Experience>
+        <Category>D</Category>
+    </Driver>
+    <Driver>
+        <Name>Николаев Артем Валерьевич</Name>
+        <Experience>4</Experience>
+        <Category>D</Category>
+    </Driver>
+    <Driver>
+        <Name>Ковалев Вадим Андреевич</Name>
+        <Experience>10</Experience>
+        <Category>A</Category>
+    </Driver>
+    <Driver>
+        <Name>Лебедева Светлана Николаевна</Name>
+        <Experience>2</Experience>
+        <Category>B</Category>
+    </Driver>
+    <Driver>
+        <Name>Романов Алексей Андреевич</Name>
+        <Experience>3</Experience>
+        <Category>C</Category>
+    </Driver>
+    <Driver>
+        <Name>Григорьева Татьяна Сергеевна</Name>
+        <Experience>8</Experience>
+        <Category>D</Category>
+    </Driver>
+    <Driver>
+        <Name>Орлова Елена Дмитриевна</Name>
+        <Experience>6</Experience>
+        <Category>A</Category>
+    </Driver>
+    <Driver>
+        <Name>Шевченко Валентин Борисович</Name>
+        <Experience>7</Experience>
+        <Category>B</Category>
+    </Driver>
+    <Driver>
+        <Name>Соловьев Владислав Александрович</Name>
+        <Experience>9</Experience>
+        <Category>C</Category>
+    </Driver>
+</Drivers>
