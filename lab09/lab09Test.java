@@ -43,8 +43,6 @@ public class lab09Test {
         Assert.assertEquals("Петров Петр Петрович", lab09Instance.tableModel.getValueAt(0, 0));
         Assert.assertEquals("7 лет", lab09Instance.tableModel.getValueAt(0, 1));
         Assert.assertEquals("C", lab09Instance.tableModel.getValueAt(0, 2));
-
-
     }
 
     @Test
