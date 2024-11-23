@@ -1,0 +1,66 @@
+<!-- Created with Jaspersoft Studio version 7.0.1.final using JasperReports Library version 7.0.1-573496633c2b4074e32f433154b543003f7d2498  -->
+<jasperReport name="lab07" language="java" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="d0629a19-7652-43a9-8988-a457a2e82cf9">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter"/>
+	<query language="XPath"><![CDATA[/Drivers/Driver]]></query>
+	<field name="Name" class="java.lang.String">
+		<description><![CDATA[Name]]></description>
+		<property name="net.sf.jasperreports.xpath.field.expression" value="Name"/>
+	</field>
+	<field name="Experience" class="java.lang.Integer">
+		<description><![CDATA[Experience]]></description>
+		<property name="net.sf.jasperreports.xpath.field.expression" value="Experience"/>
+	</field>
+	<field name="Category" class="java.lang.String">
+		<description><![CDATA[Category]]></description>
+		<property name="net.sf.jasperreports.xpath.field.expression" value="Category"/>
+	</field>
+	<title height="61" splitType="Stretch">
+		<element kind="textField" uuid="068dcfff-7a71-4cec-965d-157ee2f65369" x="0" y="0" width="550" height="30" fontName="DEJAVU" fontSize="14.0" bold="true" hTextAlign="Center">
+			<expression><![CDATA["Отчет по водителям"]]></expression>
+		</element>
+		<element kind="textField" uuid="86e33edd-20f3-4f5b-982d-de6750b40007" x="440" y="30" width="110" height="30">
+			<expression><![CDATA[new java.util.Date()]]></expression>
+		</element>
+	</title>
+	<columnHeader height="41">
+		<element kind="textField" uuid="54648925-53f4-46fe-a893-c0f8d9664400" x="40" y="5" width="30" height="30">
+			<expression><![CDATA["№"]]></expression>
+		</element>
+		<element kind="staticText" uuid="fcbafa56-45e2-46b6-a767-91d2c36a5c21" x="90" y="5" width="130" height="30" fontName="DEJAVU" hTextAlign="Left">
+			<text><![CDATA[ФИО]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a2bfb364-f1ad-4f3c-809e-9b25a9301631"/>
+		</element>
+		<element kind="staticText" uuid="56c1d0a4-a267-424c-a075-74dcf560a433" x="240" y="5" width="100" height="30" fontName="DEJAVU">
+			<text><![CDATA[Стаж]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="4cd54dbb-44c8-40fb-ab5b-18352460c12a"/>
+		</element>
+		<element kind="staticText" uuid="2c74566f-d662-49fa-871a-1426f47a3fa9" x="380" y="5" width="100" height="30" fontName="DEJAVU">
+			<text><![CDATA[Категория]]></text>
+			<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="892c0cff-4685-4590-9b38-3a742ef3c1fd"/>
+		</element>
+	</columnHeader>
+	<detail>
+		<band height="39" splitType="Stretch">
+			<element kind="textField" uuid="8f6b2ea3-6a86-4cd8-9695-f30f407a7826" x="90" y="0" width="130" height="30" fontName="DEJAVU">
+				<expression><![CDATA[$F{Name}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="a2bfb364-f1ad-4f3c-809e-9b25a9301631"/>
+			</element>
+			<element kind="textField" uuid="e8c9d9c6-a622-4daf-a42c-22ddd3333a66" x="240" y="0" width="100" height="30" fontName="DEJAVU">
+				<expression><![CDATA[$F{Experience}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="4cd54dbb-44c8-40fb-ab5b-18352460c12a"/>
+			</element>
+			<element kind="textField" uuid="7ca228cf-63a8-4ee3-8a66-d675c25b3688" x="380" y="0" width="100" height="30" fontName="DEJAVU">
+				<expression><![CDATA[$F{Category}]]></expression>
+				<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="892c0cff-4685-4590-9b38-3a742ef3c1fd"/>
+			</element>
+			<element kind="textField" uuid="a900d64c-487a-40e6-ab5f-2c3a6dc0f21c" x="40" y="0" width="30" height="30">
+				<expression><![CDATA[$V{REPORT_COUNT}]]></expression>
+			</element>
+		</band>
+	</detail>
+	<pageFooter height="40">
+		<element kind="textField" uuid="66f6c088-41a5-44a1-821c-d06434e7c7a3" x="275" y="10" width="30" height="30">
+			<expression><![CDATA[$V{PAGE_NUMBER}]]></expression>
+		</element>
+	</pageFooter>
+</jasperReport>

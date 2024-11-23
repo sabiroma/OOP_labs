@@ -1,0 +1,15 @@
+12:28:48,787  INFO main lab10:Bus:51 - Программа запущена
+12:28:51,073  INFO Thread-0 lab10:lambda$startLoad$1:236 - Нажата кнопка 'Загрузить'
+12:28:51,075  INFO Thread-0 lab10:lambda$startLoad$1:237 - Первый поток начал работу
+12:28:54,373 DEBUG Thread-0 lab10:loadFromXML:509 - Данные успешно загружены из XML: drivers.xml
+12:28:54,374  INFO Thread-1 lab10:lambda$startEditAndSave$6:258 - Второй поток начал работу
+12:28:56,346  INFO AWT-EventQueue-0 lab10:lambda$startEditAndSave$4:278 - Нажата кнопка 'Удалить'
+12:28:56,346  WARN AWT-EventQueue-0 lab10:lambda$startEditAndSave$4:282 - Строка для удаления не была выбрана
+12:29:01,410  INFO AWT-EventQueue-0 lab10:lambda$startEditAndSave$4:278 - Нажата кнопка 'Удалить'
+12:29:02,573 DEBUG AWT-EventQueue-0 lab10:lambda$startEditAndSave$4:289 - Водитель удален:Смирнов Николай Александрович
+12:29:03,346  INFO AWT-EventQueue-0 lab10:lambda$startEditAndSave$5:296 - Нажата кнопка 'Сохранить'
+12:29:09,421 DEBUG AWT-EventQueue-0 lab10:saveToXML:562 - Данные успешно загружены из XML: abc.xml
+12:29:09,421  INFO Thread-2 lab10:lambda$startReport$8:317 - Третий поток начал работу
+12:29:10,587  INFO AWT-EventQueue-0 lab10:lambda$startReport$7:320 - Нажата кнопка 'Создать отчет'
+12:29:13,246 DEBUG AWT-EventQueue-0 lab10:generateReport:640 - Отчет сформирован в HTML: DriverReport.html
+12:29:17,484  INFO AWT-EventQueue-0 lab10:windowClosing:117 - Программа завершена
